@@ -36,11 +36,35 @@
             color: #007bff;
             text-decoration: none;
         }
+        a:hover {
+            text-decoration: underline;
+        }
+        .tabs {
+            margin-top: 10px;
+        }
+        .tabs a {
+            margin: 0 10px;
+        }
+        .tabs a:hover {
+            text-decoration: underline;
+        }
+        main {
+            text-align: center;
+        }
+        img {
+            display: block;
+            margin: 0 auto; /* Center the image */
+            max-width: 100%; /* Ensure the image doesn't exceed the viewport width */
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Welcome to Spookside!</h1>
+        <div class="tabs">
+            <a href="#">Home</a>
+            <a href="#">Projects</a>
+        </div>
         <p>My Website Hub</p>
     </header>
 
